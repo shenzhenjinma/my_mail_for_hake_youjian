@@ -1,3 +1,4 @@
+伪造邮件来源的，仅供测试邮件系统安全性
 how to use ?
 chmod 777 ./mymail
 ./mymail -to to@xx.cn --from "from@xx.cn" --h-From: '"name" <from@xx.cn>'  --ehlo xx.cn --body youcontent --header "Subject: youmailtitle"
